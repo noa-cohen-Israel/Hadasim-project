@@ -1,6 +1,6 @@
 from word2number import w2n
 
-class information_file():
+class File_details():
 
     def __init__(self,file_path):
         self.__file_name=file_path.split("/")[-1]
@@ -112,11 +112,4 @@ class information_file():
         return max
 
 
-f=information_file('text.txt')
-print(f.number_rows())
-print(f.number_words())
-print(f.popular_word())
-print(f.max_and_average_len_sentence())
-print(f.number_specific_words())
-print(f.max_sequence_words_not_contain_k())
-print(f.max_num())
+
