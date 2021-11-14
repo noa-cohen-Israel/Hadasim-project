@@ -11,7 +11,7 @@ pip install word2number
 
 ## Usage
 ```python
-file=information_file('./text.txt')
+file=File_details('./text.txt')
 
 # returns 23
 file.number_rows()
